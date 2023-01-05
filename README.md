@@ -1,4 +1,6 @@
-This is a repository for atlas construction of medical images. The dataset is in-house 125 CT images of heart. We construct and atlas by running example.py, which is devided in cells
+This is a repository for atlas construction of medical images. The dataset is in-house 125 CT images of heart. The idea is to construct an atlas with registering a set of images togheter to create an average CT heart image. Then I extracted an aortic heart segmentation from constructed atlas with desired image procesing program. For label in this repository, I used Slicer 5.0.3, using tresholding and then fine cutting segmentation by hand. This segmentation is then used to acqure a mask of any given image. We register atlas to given image and then use the same transformation to transform the atlas mask to desired mask. Lastly we transform some landmarks and evaluate how well the transformed landmarks are predicted.
+
+We construct and atlas by running example.py, which is devided in cells
 1st cell is registration procedure of and image to atlas.
 2nd cell is construction of atlas.
 3rd cell is statistic for atlas point detection 
