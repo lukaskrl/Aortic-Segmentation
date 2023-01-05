@@ -6,3 +6,5 @@ This is a repository for atlas construction of medical images. The dataset is in
 In folder images we have given 3 .nii images used in example.
 In folder AtlasImage the computed atlas and label are saved, along with the computed atlas from example.
 In folder points, we have 3 corresponding .txt to the original landmarks and their corresponding csv file point.csv, in points_transformed.csv are the transformed landmarks from atlas.
+
+AtlasRegistration.py is a python script with the development code inside, unnecesary to run, this is for developing purposes as backup.
