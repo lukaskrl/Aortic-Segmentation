@@ -8,3 +8,7 @@ In folder AtlasImage the computed atlas and label are saved, along with the comp
 In folder points, we have 3 corresponding .txt to the original landmarks and their corresponding csv file point.csv, in points_transformed.csv are the transformed landmarks from atlas.
 
 AtlasRegistration.py is a python script with the development code inside, unnecesary to run, this is for developing purposes as backup.
+
+Repository was run on python 3.9.15.
+Gpu: nvidia rtx 3070 Ti
+Cpu: AMD Ryzen 7 5800X
